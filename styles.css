@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.navbar {
+    background-color: wheat;
+    height: 60px;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    border-color: white;
+    border-radius: 5px;
+}
+
+.navbar__logo {
+    color: black;
+    text-decoration: none;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.navbar__link {
+    color: white;
+    text-decoration: none;
+    padding: 0rem 1rem;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-spacing: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+
+h1{
+    font-size: 35px;
+    margin-top: 20px;
+    color: wheat;
+}
+.decorator-elem {
+    font-weight: bold;
+}
+
+
+
+.puzzle {
+    width: 540px;
+    height: 540px;
+    margin-left: 55%;
+    margin-top: 0px;
+}
+
+h1{
+    font-size: 30px;
+}
+.container{
+    color: wheat;
+    padding: 10px;
+
+    display: inline-block;
+    border-radius: 10px;
+    margin: 10px;
+    align-self: start;
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+.container ul {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  .container li {
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+.odd-section {
+    background: #eae1e1;
+}
+
+.puzzle input {
+    text-align: center;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    border: 2px black solid;
+}
+
+
+.empty-el {
+    color: #4848d4;
+}
+
+.solve-button, .clear-button, .load-button {
+    background:rgb(203, 153, 61);
+    padding: 10px 10px;
+    color: white;
+    border-radius: 200px;
+    font-weight: bold;
+    border-style: double;
+    margin-top: 20px;
+    margin-left: 65%;
+}
+
+.clear-button, .load-button{
+    margin-left: 15px;
+}
+
+.solve-button:hover, .clear-button:hover , .load-button:hover {
+    background-color: wheat;
+    transform: scale(1.1);
+}
