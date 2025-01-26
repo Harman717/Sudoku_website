@@ -23,11 +23,11 @@ Welcome to the **Sudoku Solver** website! This project is a web-based Sudoku sol
    - Click the **"Solve"** button to solve the puzzle using the backtracking algorithm.
    - The solver will fill in the correct numbers step by step.
 
-3. **Reset the Grid**:
-   - Click the **"Reset"** button to clear the grid and start over.
+3. **Clear the Grid**:
+   - Click the **"clear"** button to clear the grid and start over.
 
-4. **Step-by-Step Solving**:
-   - Click the **"Step"** button to see the backtracking algorithm solve the puzzle one step at a time.
+4. **Solving**:
+   - Click the **"Solve"** button to see the backtracking algorithm solve the puzzle all step at a time.
 
 ## Technologies Used
 
